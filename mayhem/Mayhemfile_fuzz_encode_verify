@@ -1,0 +1,6 @@
+project: savantenvs/reed-solomon-erasure
+target: fuzz-encode-verify
+
+cmds:
+  - cmd: /mayhem/fuzz_encode_verify
+    libfuzzer: true

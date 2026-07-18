@@ -1,0 +1,6 @@
+project: savantenvs/reed-solomon-erasure
+target: fuzz-encode-reconstruct
+
+cmds:
+  - cmd: /mayhem/fuzz_encode_reconstruct
+    libfuzzer: true
