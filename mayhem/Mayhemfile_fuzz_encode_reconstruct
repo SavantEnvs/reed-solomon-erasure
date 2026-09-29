@@ -1,0 +1,8 @@
+project: savantenvs/reed-solomon-erasure
+target: fuzz-encode-reconstruct-buggy-mhh-run-36
+
+cmds:
+  - cmd: /mayhem/fuzz_encode_reconstruct
+    libfuzzer: true
+
+# origin: https://app.mayhem.security/mayhemheroes/reed-solomon-erasure/fuzz-encode-reconstruct/36
